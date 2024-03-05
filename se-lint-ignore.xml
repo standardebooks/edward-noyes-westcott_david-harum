@@ -12,4 +12,10 @@
 			<reason>"The" is not doubled; the captialized "The" is a person's name: "the The’dore".</reason>
 		</ignore>
 	</file>
+	<file path="chapter-37.xhtml">
+		<ignore>
+			<code>y-011</code>
+			<reason>Two right single quotes is correct for song name within this quoted dialogue.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
