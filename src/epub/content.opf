@@ -28,43 +28,61 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">David Harum</dc:title>
 		<meta property="file-as" refines="#title">David Harum</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Story of American Life</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of American Life, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">David Harum: A Story of American Life</dc:title>
+		<meta property="file-as" refines="#fulltitle">David Harum</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">New York (State) -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Bankers -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008108411</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2007101818</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">An aimless young man leaves the city for a small village to work for a horse-trading country banker.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;John Lenox meets an old acquaintance, Mary Blake, aboard a ship bound for New York from Europe, and a romance begins to blossom. The love interest continues to grow during the following months, until Mary must move away indefinitely to help her sister care for her ailing husband in warmer climes. Not long after this loss, John experiences an even greater one. He then stumbles upon an opportunity to move to a small village in upstate New York to work for a country banker and chooses to accept. His new boss David Harum is not only a banker, but also partakes in horse-trading. David turns out to be a uniquely quaint, humorous, and original character who shares with John his many wise views on life.&lt;/p&gt;
+			&lt;p&gt;The lighthearted nature and humor of the novel are in contrast with the circumstances in which it was written; &lt;a href="https://standardebooks.org/ebooks/edward-noyes-westcott"&gt;Edward Noyes Westcott&lt;/a&gt; completed the work on his deathbed, and it was not published until six months after his death. It was an immediate success, selling over half a million copies in its first two years. &lt;i&gt;David Harum&lt;/i&gt; was later adapted as a play, a silent film, a talking film, and a radio serial program.&lt;/p&gt;
+			&lt;p&gt;Many similarities have been noted between the novel’s character David Harum of Homeville, NY and the real-life David Hannum of Homer, NY, who was also a banker and horse-trader. Hannum is best remembered for his role in the Cardiff Giant hoax, in which he claimed to have found the petrified remains of a ten foot tall man buried in Cardiff, NY.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/17617</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/davidharumstoryo00west/</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/David_Harum</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-noyes-westcott_david-harum</meta>
 		<dc:creator id="author">Edward Noyes Westcott</dc:creator>
 		<meta property="file-as" refines="#author">Westcott, Edward Noyes</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Noyes_Westcott</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82051108</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="author-of-introduction">Forbes Heermans</dc:contributor>
+		<meta property="file-as" refines="#author-of-introduction">Heermans, Forbes</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n82154722</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<dc:contributor id="artist">William Sidney Mount</dc:contributor>
+		<meta property="file-as" refines="#artist">Mount, William Sidney</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Sidney_Mount</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50006681</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">David Garcia</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Garcia, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Janet Blenkinship</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Belnkinship, Janet</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Brad Taylor</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Taylor, Brad</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/btaylor8/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
