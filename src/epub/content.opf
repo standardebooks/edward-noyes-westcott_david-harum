@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-noyes-westcott/david-harum</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-03-27T20:46:05Z</dc:date>
+		<meta property="dcterms:modified">2024-03-27T20:46:05Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -45,15 +45,15 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">An aimless young man leaves the city for a small village to work for a horse-trading country banker.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;John Lenox meets an old acquaintance, Mary Blake, aboard a ship bound for New York from Europe, and a romance begins to blossom. The love interest continues to grow during the following months, until Mary must move away indefinitely to help her sister care for her ailing husband in warmer climes. Not long after this loss, John experiences an even greater one. He then stumbles upon an opportunity to move to a small village in upstate New York to work for a country banker and chooses to accept. His new boss David Harum is not only a banker, but also partakes in horse-trading. David turns out to be a uniquely quaint, humorous, and original character who shares with John his many wise views on life.&lt;/p&gt;
+			&lt;p&gt;John Lenox meets an old acquaintance, Mary Blake, aboard a ship bound for New York from Europe, and a romance begins to blossom. The love interest continues to grow until Mary must move away for warmer climes in order to help her sister care for her ailing husband. Not long after this loss, John experiences an even greater one; he then stumbles upon, and accepts, an opportunity to move to a small village in upstate New York to work for a country banker. His new boss, David Harum, is not only a banker, but also partakes in horse-trading. David turns out to be a uniquely quaint, humorous, and original character who shares with John his many wise views on life.&lt;/p&gt;
 			&lt;p&gt;The lighthearted nature and humor of the novel are in contrast with the circumstances in which it was written; &lt;a href="https://standardebooks.org/ebooks/edward-noyes-westcott"&gt;Edward Noyes Westcott&lt;/a&gt; completed the work on his deathbed, and it was not published until six months after his death. It was an immediate success, selling over half a million copies in its first two years. &lt;i&gt;David Harum&lt;/i&gt; was later adapted as a play, a silent film, a talking film, and a radio serial program.&lt;/p&gt;
 			&lt;p&gt;Many similarities have been noted between the novel’s character David Harum of Homeville, NY and the real-life David Hannum of Homer, NY, who was also a banker and horse-trader. Hannum is best remembered for his role in the Cardiff Giant hoax, in which he claimed to have found the petrified remains of a ten foot tall man buried in Cardiff, NY.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/17617</dc:source>
 		<dc:source>https://archive.org/details/davidharumstoryo00west</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">111254</meta>
+		<meta property="se:reading-ease.flesch">77.37</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/David_Harum</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-noyes-westcott_david-harum</meta>
 		<dc:creator id="author">Edward Noyes Westcott</dc:creator>
@@ -89,6 +89,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
