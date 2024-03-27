@@ -2,20 +2,8 @@
 <se-lint-ignore>
 	<file path="chapter-24.xhtml">
 		<ignore>
-			<code>y-011</code>
+			<code>t-008</code>
 			<reason>Two right single quotes is intentional in the vernacular dialogue.</reason>
-		</ignore>
-	</file>
-	<file path="chapter-28.xhtml">
-		<ignore>
-			<code>y-001</code>
-			<reason>"The" is not doubled; the captialized "The" is a person's name: "the The’dore".</reason>
-		</ignore>
-	</file>
-	<file path="chapter-37.xhtml">
-		<ignore>
-			<code>y-011</code>
-			<reason>Two right single quotes is correct for song name within this quoted dialogue.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
