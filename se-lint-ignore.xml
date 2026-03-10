@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="chapter-24.xhtml">
 		<ignore code="t-008">
+			<line>75</line>
 			<reason>Two right single quotes is intentional in the vernacular dialogue.</reason>
 		</ignore>
 	</file>
