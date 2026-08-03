@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edward-noyes-westcott/david-harum</dc:identifier>
 		<dc:date>2024-03-27T20:46:05Z</dc:date>
@@ -45,12 +45,12 @@
 		<meta property="term" refines="#subject-2">sh2007101818</meta>
 		<meta property="schema:genre">Comedy</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">An aimless young man leaves the city for a small village to work for a horse-trading country banker.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An aimless young man leaves the city for a small village to work for a horse-trading country banker.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;John Lenox meets an old acquaintance, Mary Blake, aboard a ship bound for New York from Europe, and a romance begins to blossom. The love interest continues to grow until Mary must move away for warmer climes in order to help her sister care for her ailing husband. Not long after this loss, John experiences an even greater one; he then stumbles upon, and accepts, an opportunity to move to a small village in upstate New York to work for a country banker. His new boss, David Harum, is not only a banker, but also partakes in horse-trading. David turns out to be a uniquely quaint, humorous, and original character who shares with John his many wise views on life.&lt;/p&gt;
 			&lt;p&gt;The lighthearted nature and humor of the novel are in contrast with the circumstances in which it was written; &lt;a href="https://standardebooks.org/ebooks/edward-noyes-westcott"&gt;Edward Noyes Westcott&lt;/a&gt; completed the work on his deathbed, and it was not published until six months after his death. It was an immediate success, selling over half a million copies in its first two years. &lt;i&gt;David Harum&lt;/i&gt; was later adapted as a play, a silent film, a talking film, and a radio serial program.&lt;/p&gt;
 			&lt;p&gt;Many similarities have been noted between the novel’s character David Harum of Homeville, NY and the real-life David Hannum of Homer, NY, who was also a banker and horse-trader. Hannum is best remembered for his role in the Cardiff Giant hoax, in which he claimed to have found the petrified remains of a ten foot tall man buried in Cardiff, NY.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/17617</dc:source>
 		<dc:source>https://archive.org/details/davidharumstoryo00west</dc:source>
