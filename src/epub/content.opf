@@ -37,8 +37,8 @@
 		<dc:title id="fulltitle">David Harum: A Story of American Life</dc:title>
 		<meta property="file-as" refines="#fulltitle">David Harum</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">New York (State) -- Fiction</dc:subject>
-		<dc:subject id="subject-2">Bankers -- Fiction</dc:subject>
+		<dc:subject id="subject-1">New York (State)--Fiction</dc:subject>
+		<dc:subject id="subject-2">Bankers--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008108411</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
